@@ -1,0 +1,122 @@
+# Cultural Artifact Detection Project - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# TensorFlow/ML specific
+*.h5
+*.pkl
+*.joblib
+*.model
+logs/
+checkpoints/
+tensorboard_logs/
+
+# Large files that shouldn't be in repo
+feature_database.pkl
+*.weights
+model_weights/
+
+# Image files (optional - comment out if you want to include sample images)
+# *.jpg
+# *.jpeg
+# *.png
+# *.bmp
+# *.tiff
+# *.webp
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Results and output files
+results/
+output/
+*.csv
+test_results_*.txt
+prediction_result_*.png
+training_history_*.png
+
+# Environment variables
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+*.log
+logs/
